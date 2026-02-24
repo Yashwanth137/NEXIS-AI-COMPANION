@@ -60,32 +60,32 @@ NEXIS-AI-COMPANION/
 - FFmpeg (for video processing)
 
 ### Backend Installation
-1. Navigate to the backend directory:
+1. Navigate to the backend directory: <br>
    `cd backend`
 
-2. Create and activate a virtual environment:
+2. Create and activate a virtual environment: <br>
    `python -m venv venv` <br>
    `source venv/bin/activate` # On Windows: `venv\Scripts\activate`
 
-4. Install dependencies:
+4. Install dependencies: <br>
    `pip install -r requirements.txt`
 
-5. Configure environment variables in a .env file:
+5. Configure environment variables in a .env file: <br>
    `DATABASE_URL=postgresql+psycopg://user:password@localhost:5432/nexis` <br>
    `SECRET_KEY=your_secret_key_here` <br>
    `ALGORITHM=HS256`
 
-6. Run the application:
+6. Run the application: <br>
    `uvicorn app:app --reload`
 
 ### Frontend Installation
-1. Navigate to the frontend directory:
+1. Navigate to the frontend directory: <br>
    `cd frontend`
 
-2. Install dependencies:
+2. Install dependencies: <br>
    `npm install`
 
-3. Run the development server:
+3. Run the development server: <br>
    `npm run dev`
 
 ## Security and Compliance
