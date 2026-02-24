@@ -64,16 +64,15 @@ NEXIS-AI-COMPANION/
    `cd backend`
 
 2. Create and activate a virtual environment:
-   `python -m venv venv`
-   `source venv/bin/activate`
-   # On Windows: `venv\Scripts\activate`
+   `python -m venv venv` <br>
+   `source venv/bin/activate` # On Windows: `venv\Scripts\activate`
 
 4. Install dependencies:
    `pip install -r requirements.txt`
 
 5. Configure environment variables in a .env file:
-   `DATABASE_URL=postgresql+psycopg://user:password@localhost:5432/nexis`
-   `SECRET_KEY=your_secret_key_here`
+   `DATABASE_URL=postgresql+psycopg://user:password@localhost:5432/nexis` <br>
+   `SECRET_KEY=your_secret_key_here` <br>
    `ALGORITHM=HS256`
 
 6. Run the application:
